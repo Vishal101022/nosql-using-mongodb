@@ -1,0 +1,32 @@
+{
+  "name": "section-12-working-with-nosql-and-using-mongodb",
+  "version": "1.0.0",
+  "description": "Working with NoSQL and using MongoDB",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Vishal Rai",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Vishal101022/nosql-using-mongodb.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "MongoDB",
+    "Express"
+  ],
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "mongodb": "^3.7.4",
+    "mongoose": "^8.8.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
